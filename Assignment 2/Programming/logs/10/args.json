@@ -1,0 +1,20 @@
+{
+  "data_folder": "./data",
+  "batch_size": 16,
+  "model": "lstm",
+  "embeddings": "./data/embeddings.npz",
+  "layers": 4,
+  "epochs": 10,
+  "optimizer": "adamw",
+  "lr": 0.001,
+  "momentum": 0.9,
+  "weight_decay": 0.0005,
+  "exp_id": "10",
+  "log": false,
+  "log_dir": "logs_3",
+  "seed": 900,
+  "num_workers": 2,
+  "device": "cuda",
+  "progress_bar": false,
+  "print_every": 10
+}
